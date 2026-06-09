@@ -1132,4 +1132,4 @@
 							- Ela tem fácil acesso a esses equipamentos?
 								- sim a petiko possui pode arcar com esses custos 
 
-APPIMAGE_EXTRACT_AND_RUN=1 /home/davilaw/Documents/Obsidian-1.12.7.AppImage --no-sandbox --disable-gpu --ozone-platform=x11
+
