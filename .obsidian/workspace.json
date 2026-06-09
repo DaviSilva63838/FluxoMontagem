@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "642b569783d17f11",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee63232cfa233094",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "acb440e85b77db53",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5df54be38fc91179",
+    "type": "split",
+    "children": [
+      {
+        "id": "a70bff79d2f2f66f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88f47b2f7d37afb4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8c761cc0d24fc2fb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "02d63c6f3f242394",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "666816ba11a441ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "b543c58d61bb7458",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7ce3290329af659",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "9ab262b57743e95b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "7b44bc6bd497eb96",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "39e6e662c4b15219",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c094383101d36d21",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "acb440e85b77db53",
+  "lastOpenFiles": [
+    "3.3.2.1-empilhadeira.md",
+    "05-fluxo-montagem-caixas/5.5.2-como-ele-consulta-as-caixas-que-ele-ja-fez.md",
+    "05-fluxo-montagem-caixas/5.5.1-como-ele-consulta-as-caixas-que-ele-precisa-fazer.md",
+    "05-fluxo-montagem-caixas/5.5-como-o-montador-verifica-quais-caixas-ja-foram-ou-ainda-precisam-ser-montadas.md",
+    "05-fluxo-montagem-caixas/5.4.2.3-quem-armazena-elas.md",
+    "05-fluxo-montagem-caixas/5.4.2.2-como-funciona-o-armazenamento-dessas-caixas.md",
+    "05-fluxo-montagem-caixas/5.4.2.1-onde-armazenar-a-caixa-depois-de-pronta.md",
+    "05-fluxo-montagem-caixas/5.4.2-a-caixa-e-armazenada.md",
+    "05-fluxo-montagem-caixas/5.4.1.2-quem-faz-essa-verificacao.md",
+    "05-fluxo-montagem-caixas/5.4.1.1-como-essa-verificacao-e-feita.md",
+    "05-fluxo-montagem-caixas/5.4.1-e-necessario-fazer-uma-verificacao.md",
+    "05-fluxo-montagem-caixas/5.4-oque-acontece-com-a-caixa-apos-a-montagem.md",
+    "05-fluxo-montagem-caixas/5.3.3-como-o-montador-tem-acesso-as-etiquetas-e-notas-fiscais.md",
+    "05-fluxo-montagem-caixas/5.3.2-como-o-montador-tem-acesso-aos-itens.md",
+    "05-fluxo-montagem-caixas/5.3.1-como-o-montador-tem-acesso-as-informacoes-da-caixa.md",
+    "05-fluxo-montagem-caixas/5.3-como-o-montador-tem-acesso-ao-que-ele-precisa-para-montar-as-caixas.md",
+    "05-fluxo-montagem-caixas/5.2.4-finalizar-com-lacre-etiquetas-e-armazenamento.md",
+    "05-fluxo-montagem-caixas/5.2.3-colocar-os-itens-na-caixa.md",
+    "05-fluxo-montagem-caixas/5.2.2-separar-e-buscar-os-itens-no-estoque.md",
+    "05-fluxo-montagem-caixas/5.2.1-receber-e-consultar-os-dados-da-caixa.md",
+    "05-fluxo-montagem-caixas/5.2-como-a-caixa-e-montada.md",
+    "05-fluxo-montagem-caixas/5.1.6.3-quem-armazena-elas.md",
+    "05-fluxo-montagem-caixas/5.1.6.2-como-funciona-o-armazenamento-dessas-caixas.md",
+    "05-fluxo-montagem-caixas/5.1.6.1.3-lugar-no-galpao-de-montagem-especializado-para-isso.md",
+    "05-fluxo-montagem-caixas/5.1.6.1.2-rua.md",
+    "05-fluxo-montagem-caixas/5.1.6.1.1-estoque-de-itens.md",
+    "05-fluxo-montagem-caixas",
+    "04-fluxo-notas-e-etiquetas",
+    "03-fluxo-itens",
+    "02-fluxo-preparo-dados",
+    "01-fluxo-dados-montador",
+    "1. Fluxo 01 - Quais são os dados e qual o meio em",
+    "FonteConhecimentoDavi.zip",
+    "05-fluxo-05-como-funciona-o-fluxo-de-montagem-de-caixas",
+    "04-fluxo-04-como-funciona-o-fluxo-de-notas-fiscais-e-etiquetas-da-petiko",
+    "03-fluxo-03-como-funciona-o-fluxo-dos-itens-da-petiko",
+    "99-rascunhos/Untitled.canvas",
+    "99-rascunhos/Untitled 1.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas"
+  ]
+}

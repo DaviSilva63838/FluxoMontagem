@@ -1,0 +1,1135 @@
+1. Fluxo 01 - Quais são os dados e qual o meio em que eles chegam para o montador?
+	- Quais dados vao chegar para o montador?
+		- id do kit
+		- nome do kit
+		- trilha do kit
+		- itens daquele kit
+		- grupo de kits que contenham itens semelhantes
+		- caixas que ele precisa montar
+	- Como esses dados vão estar separados?
+		- Quais dados?
+			- id do kit
+			- nome do kit
+			- trilha do kit
+			- itens daquele kit
+			- grupo de kits que contenham itens semelhantes
+		- Quais as maneiras de agrupar os dados que eu tenho?
+				- agrupar por caixas individuais
+					- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+					- Quais dados ele precisa agrupar?
+						- id do kit
+						- nome do kit
+						- trilha do kit
+						- itens daquele kit
+						- grupo de kits que contenham itens semelhantes
+				- agrupar por grupos de caixas que contem itens semelhantes
+					- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+					- Quais dados ele precisa agrupar?
+						- id do kit
+						- nome do kit
+						- trilha do kit
+						- itens daquele kit
+						- grupo de kits que contenham itens semelhantes
+				- Qual das maneiras melhor se aplica a um fluxo otimizado?
+					- organizar por grupos de caixas facilita o processo de montagem em diversas partes
+	- Como esses dados vao chegar para o montador?
+		- Quais dados vão chegar?
+			- id do kit
+			- nome do kit
+			- trilha do kit
+			- itens daquele kit
+			- grupo de kits que contenham itens semelhantes
+		- De qual meio esses dados vão chegar?
+			- papel impresso
+				- Quais dados vao estar nesse papel?
+					- id do kit
+					- nome do kit
+					- trilha do kit
+					- itens daquele kit
+					- grupo de kits que contenham itens semelhantes
+				- Como os dados vao chegar nesse papel?
+					- De onde esses dados vem?
+						- sistema automatizado
+						- supervisor
+					- Quem é o responsável por passar os dados para esse papel?
+						- supervisor
+						- montador
+						- funcionario aleatório
+				- Como os dados vao estar separados nesse papel?
+					- agrupados por caixas individuais
+						- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+						- Quanto de espaço isso custaria da folha?
+							- uma folha sulfite a4 conseguiria exibir facilmente os dados de 4 caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+						- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+							- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+					- agrupados por grupos de caixas que contem itens semelhantes
+						- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+						- Quanto de espaço isso custaria da folha?
+							- uma folha de sulfite a4 conseguiria exibir cerca de 2 grupos de caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+						- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+							- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+				- Oque é necessário para a petiko utilizar o papel como alternativa?
+					- Quais equipamentos ela precisa?
+						- ao menos uma impressora para suprir a demanda de impressoes
+					- Ela tem fácil acesso a esses equipamentos?
+						- sim a petiko possui ao menos uma impressora, ou pode arcar com esses custos
+			- dispositivos eletronicos
+				- Quais dados vao estar nesse dispositivo?
+					- id do kit
+					- nome do kit
+					- trilha do kit
+					- itens daquele kit
+					- grupo de kits que contenham itens semelhantes
+				- Como os dados vao chegar nesse dispositivo?
+					- De onde esses dados vem?
+						- sistema automatizado
+						- supervisor
+					- Quem é o responsável por passar os dados para esse dispositivo?
+						- supervisor
+						- montador
+						- funcionario aleatório
+				- Como os dados vao estar separados nesse dispositivo?
+					- agrupados por caixas individuais
+						- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+						- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+							- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+					- agrupados por grupos de caixas que contem itens semelhantes
+						- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+						- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+							- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+				- Oque é necessário para a petiko utilizar o dispositivo como alternativa?
+					- Quais equipamentos ela precisa?
+						- ao menos um dispositivo para cada montador para suprir a demanda
+					- Ela tem fácil acesso a esses equipamentos?
+						- sim a petiko possui pode arcar com esses custos
+			- Quais dados vão chegar?
+				- id do kit
+				- nome do kit
+				- trilha do kit
+				- itens daquele kit
+				- grupo de kits que contenham itens semelhantes
+
+2. Fluxo 02 - Quem ou o que prepara, como prepara e disponibiliza esses dados para o montador?
+	- Quem é o responsável por preparar esses dados?
+		- Quais dados?
+			- id do kit
+			- nome do kit
+			- trilha do kit
+			- itens daquele kit
+			- grupo de kits que contenham itens semelhantes
+		- Quem poderia ser esse responsavel?
+			- sistema automatizado
+			- funcionário especializado
+			- funcionário aleatório
+			- montador
+	- Como esse responsável preparou esses dados?
+		- Quais dados?
+			- id do kit
+			- nome do kit
+			- trilha do kit
+			- itens daquele kit
+			- grupo de kits que contenham itens semelhantes
+		- Oque esse responsável precisa fazer?
+			- acessar banco
+				- banco de dados da empresa q contem todos os dados das caixas
+			- verificar quais tabelas ele deve utilizar
+				- tabela to_ship para verificar os envios
+				- tabela user_items_history para verificar quais itens pertencem aos envios
+				- tabela inventories para consultar os itens
+			- verificar quais caixas ainda precisam ser montadas
+			- compilar e montar um objeto com as informações das caixas que precisam ser feitas
+		- De qual maneira ele separou esses dados?
+			- Agrupou por caixas individuais
+				- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+			- Agrupou por grupos de caixas que contem itens semelhantes
+				- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+			- Quais dados ele precisa agrupar?
+				- id do kit
+				- nome do kit
+				- trilha do kit
+				- itens daquele kit
+				- grupo de kits que contenham itens semelhantes
+			- Como esses dados são validados?
+				- Quais dados?
+					- id do kit
+					- nome do kit
+					- trilha do kit
+					- itens daquele kit
+					- grupo de kits que contenham itens semelhantes
+				- Quem valida esses dados?
+					- supervisor
+					- montador
+					- sistema automatizado
+					- funcionário aleatório
+				- Quais maneiras pode se verificar esses dados?
+					- conferindo no sistema
+					- chutando se está certo
+				- Oque acontece se um erro for encontrado na verificaçao?
+					- é feita a correção dos dados
+					- deixa errado
+	- Quem disponibiliza esses dados para o montador?
+		- Quais dados?
+			- id do kit
+			- nome do kit
+			- trilha do kit
+			- itens daquele kit
+			- grupo de kits que contenham itens semelhantes
+		- Quem poderia passar esses dados para o montador?
+			- sistema automatizado
+			- funcionário especializado
+			- funcionário aleatório
+			- montador
+	- Como esse responsavel disponibiliza esses dados para o montador?
+		- Quais dados?
+			- id do kit
+			- nome do kit
+			- trilha do kit
+			- itens daquele kit
+			- grupo de kits que contenham itens semelhantes
+		- De quais maneiras ele pode passar esse dado para o montador?
+			- papel impresso
+				- Quais dados vao estar nesse papel?
+					- id do kit
+					- nome do kit
+					- trilha do kit
+					- itens daquele kit
+					- grupo de kits que contenham itens semelhantes
+				- Como os dados vao chegar nesse papel?
+					- De onde esses dados vem?
+						- sistema automatizado
+						- supervisor
+					- Quem é o responsável por passar os dados para esse papel?
+						- supervisor
+						- montador
+						- funcionario aleatório
+				- Como os dados vao estar separados nesse papel?
+					- agrupados por caixas individuais
+						- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+						- Quanto de espaço isso custaria da folha?
+							- uma folha sulfite a4 conseguiria exibir facilmente os dados de 4 caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+						- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+							- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+					- agrupados por grupos de caixas que contem itens semelhantes
+						- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+						- Quanto de espaço isso custaria da folha?
+							- uma folha de sulfite a4 conseguiria exibir cerca de 2 grupos de caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+						- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+							- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+				- Oque é necessário para a petiko utilizar o papel como alternativa?
+					- Quais equipamentos ela precisa?
+						- ao menos uma impressora para suprir a demanda de impressoes
+					- Ela tem fácil acesso a esses equipamentos?
+						- sim a petiko possui ao menos uma impressora, ou pode arcar com esses custos
+				- Como esse papel chegaria no montador?
+					- Quem imprimiria eles?
+						- supervisor
+						- próprio montador
+						- funcionário aleatório
+					- Quem entragaria esse papel para ele?
+						- supervisor
+						- próprio montador
+						- funcionário aleatório
+			- dispositivos eletronicos
+				- Quais dados vao estar nesse dispositivo?
+					- id do kit
+					- nome do kit
+					- trilha do kit
+					- itens daquele kit
+					- grupo de kits que contenham itens semelhantes
+				- Como os dados vao chegar nesse dispositivo?
+					- De onde esses dados vem?
+					- Quem é o responsável por passar os dados para esse dispositivo?
+				- Como os dados vao estar separados nesse dispositivo?
+					- agrupados por caixas individuais
+						- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+							- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+					- agrupados por grupos de caixas que contem itens semelhantes
+						- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+							- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+				- Oque é necessário para a petiko utilizar o dispositivo como alternativa?
+					- Quais equipamentos ela precisa?
+						- ao menos um dispositivo para cada montador para suprir a demanda
+					- Ela tem fácil acesso a esses equipamentos?
+						- sim a petiko possui pode arcar com esses custos
+				- Como o montador teria acesso a esses dados que chegam no dispositivo?
+					- Como esse dado chegaria no dispositivo?
+						- Quais dados?
+							- id do kit
+							- nome do kit
+							- trilha do kit
+							- itens daquele kit
+							- grupo de kits que contenham itens semelhantes
+						- O que é necessário ter pra isso funcionar?
+							- algo que possibilite o supervisor a mandar os dados para esse disposivo
+								- como canais de comunicacao
+								- algum sistema da petiko
+								- aplicativos
+								- aplicações web
+					- Como o montador teria acesso a esse dispositivo?
+						- a petiko disponibilizaria um dispositivo para cada montador
+
+3. Fluxo 03 - Como funciona o fluxo dos itens da petiko?
+	- Onde esses itens são armazenados?
+		- A petiko tem um estoque?
+			- sim a petiko possui um estoque para armazenar os itens
+		- Onde fica esse local onde os itens são armazenados?
+			- o estoque fica em um galpão ao lado do galpão onde a montagem das caixas é realizado, bastando apenas atravessar a rua para chegar ao estoque de itens
+	- Como esses itens são separados no local de armazenamento?
+		- categorias de itens
+			- ex: petiscos, brinquedos
+		- tipos de pet
+			- ex: gato, cachorro
+		- tamanho do pet
+			- ex: pequeno, médio ou grande
+	- Como o responsavel tem acesso a esses itens?
+		- Onde esses itens são armazenados?
+			- A petiko tem um estoque?
+				- sim a petiko possui um estoque para armazenar os itens
+			- Onde fica esse local onde os itens são armazenados?
+				- o estoque fica em um galpão ao lado do galpão onde a montagem das caixas é realizado, bastando apenas atravessar a rua para chegar ao estoque de itens
+		- Quais meios o montador tem de acessar esses itens
+			- empilhadeira
+				    - Qual a capacidade?
+				   		- cerca de 5 caixas
+				    - Esta disponivel?
+				    	- temos 1 empilhadeira para toda a petiko
+				    - É necessário utiliza-la?
+				    	- somente se o volume de itens for grande
+			- caixa
+				    - Qual a capacidade?
+				   		- cada caixa carrega vários itens dependendo de seus tamanhos
+				   		- cerca de 50 itens pequenos
+				   			- petiscos
+				   			- brinquedos pequenos
+				   		- cerca de 4 a 5 itens grande
+				   			- rações
+				   			- brinquedos grandes
+				   			- sacos de areia para gatos
+				    - Esta disponivel?
+				    	- a petiko possui diversas caixas a disposicao
+				    - É necessário utiliza-la?
+				    	- se o volume de itens for grande o suficiente sim
+			- mão
+				    - Qual a capacidade?
+				   		- 1 item por mao
+				    - Esta disponivel?
+				    	- sempre esta disponivel
+				    - É necessário utiliza-la?
+				    	- somente se for necessário apenas um item
+	- Como o responsável organiza a coleta desses itens?
+		- Onde esses itens são armazenados?
+			- A petiko tem um estoque?
+				- sim a petiko possui um estoque para armazenar os itens
+			- Onde fica esse local onde os itens são armazenados?
+				- o estoque fica em um galpão ao lado do galpão onde a montagem das caixas é realizado, bastando apenas atravessar a rua para chegar ao estoque de itens
+		- Como esses itens são separados no local de armazenamento?
+			- categorias de itens
+				- ex: petiscos, brinquedos
+			- tipos de pet
+				- ex: gato, cachorro
+			- tamanho do pet
+				- ex: pequeno, médio ou grande
+		- Como o responsavel tem acesso a esses itens?
+			- Onde esses itens são armazenados?
+				- A petiko tem um estoque?
+					- sim a petiko possui um estoque para armazenar os itens
+				- Onde fica esse local onde os itens são armazenados?
+					- o estoque fica em um galpão ao lado do galpão onde a montagem das caixas é realizado, bastando apenas atravessar a rua para chegar ao estoque de itens
+			- Quais meios o montador tem de acessar esses itens
+				- empilhadeira
+				    - Qual a capacidade?
+				   		- cerca de 5 caixas
+				    - Esta disponivel?
+				    	- temos 1 empilhadeira para toda a petiko
+				    - É necessário utiliza-la?
+				    	- somente se o volume de itens for grande
+				- caixa
+				    - Qual a capacidade?
+				   		- cada caixa carrega vários itens dependendo de seus tamanhos
+				   		- cerca de 50 itens pequenos
+				   			- petiscos
+				   			- brinquedos pequenos
+				   		- cerca de 4 a 5 itens grande
+				   			- rações
+				   			- brinquedos grandes
+				   			- sacos de areia para gatos
+				    - Esta disponivel?
+				    	- a petiko possui diversas caixas a disposicao
+				    - É necessário utiliza-la?
+				    	- se o volume de itens for grande o suficiente sim
+				- mão
+				    - Qual a capacidade?
+				   		- 1 item por mao
+				    - Esta disponivel?
+				    	- sempre esta disponivel
+				    - É necessário utiliza-la?
+				    	- somente se for necessário apenas um item
+		- Como o montador sabe quais itens ele precisa?
+			- atraves dos dados passados para ele, seja no papel ou no dispositivo
+				- papel impresso
+					- Quais dados vao estar nesse papel?
+						- id do kit
+						- nome do kit
+						- trilha do kit
+						- itens daquele kit
+						- grupo de kits que contenham itens semelhantes
+					- Como os dados vao chegar nesse papel?
+						- De onde esses dados vem?
+						- Quem é o responsável por passar os dados para esse papel?
+					- Como os dados vao estar separados nesse papel?
+						- agrupados por caixas individuais
+							- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+							- Quanto de espaço isso custaria da folha?
+								- uma folha sulfite a4 conseguiria exibir facilmente os dados de 4 caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+							- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+								- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+						- agrupados por grupos de caixas que contem itens semelhantes
+							- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+							- Quanto de espaço isso custaria da folha?
+								- uma folha de sulfite a4 conseguiria exibir cerca de 2 grupos de caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+							- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+								- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+					- Oque é necessário para a petiko utilizar o papel como alternativa?
+						- Quais equipamentos ela precisa?
+							- ao menos uma impressora para suprir a demanda de impressoes
+						- Ela tem fácil acesso a esses equipamentos?
+							- sim a petiko possui ao menos uma impressora, ou pode arcar com esses custos
+				- dispositivos eletronicos
+					- Quais dados vao estar nesse dispositivo?
+						- id do kit
+						- nome do kit
+						- trilha do kit
+						- itens daquele kit
+						- grupo de kits que contenham itens semelhantes
+					- Como os dados vao chegar nesse dispositivo?
+						- De onde esses dados vem?
+						- Quem é o responsável por passar os dados para esse dispositivo?
+					- Como os dados vao estar separados nesse dispositivo?
+						- agrupados por caixas individuais
+							- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+							- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+								- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+						- agrupados por grupos de caixas que contem itens semelhantes
+							- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+							- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+								- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+					- Oque é necessário para a petiko utilizar o dispositivo como alternativa?
+						- Quais equipamentos ela precisa?
+							- ao menos um dispositivo para cada montador para suprir a demanda
+						- Ela tem fácil acesso a esses equipamentos?
+							- sim a petiko possui pode arcar com esses custos
+		- Como o montador coleta os itens necessários?
+			- coleta itens em maior quantidade primeiro
+			- coleta itens próximos aos outros
+			- como ele sabe quais itens coletar?
+				- atraves dos dados passados para ele, seja no papel ou no dispositivo
+					- papel impresso
+					- Quais dados vao estar nesse papel?
+						- id do kit
+						- nome do kit
+						- trilha do kit
+						- itens daquele kit
+						- grupo de kits que contenham itens semelhantes
+					- Como os dados vao chegar nesse papel?
+						- De onde esses dados vem?
+						- Quem é o responsável por passar os dados para esse papel?
+					- Como os dados vao estar separados nesse papel?
+						- agrupados por caixas individuais
+							- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+							- Quanto de espaço isso custaria da folha?
+								- uma folha sulfite a4 conseguiria exibir facilmente os dados de 4 caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+							- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+								- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+						- agrupados por grupos de caixas que contem itens semelhantes
+							- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+							- Quanto de espaço isso custaria da folha?
+								- uma folha de sulfite a4 conseguiria exibir cerca de 2 grupos de caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+							- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+								- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+					- Oque é necessário para a petiko utilizar o papel como alternativa?
+						- Quais equipamentos ela precisa?
+							- ao menos uma impressora para suprir a demanda de impressoes
+						- Ela tem fácil acesso a esses equipamentos?
+							- sim a petiko possui ao menos uma impressora, ou pode arcar com esses custos
+					- dispositivos eletronicos
+					- Quais dados vao estar nesse dispositivo?
+						- id do kit
+						- nome do kit
+						- trilha do kit
+						- itens daquele kit
+						- grupo de kits que contenham itens semelhantes
+					- Como os dados vao chegar nesse dispositivo?
+						- De onde esses dados vem?
+						- Quem é o responsável por passar os dados para esse dispositivo?
+					- Como os dados vao estar separados nesse dispositivo?
+						- agrupados por caixas individuais
+							- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+							- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+								- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+						- agrupados por grupos de caixas que contem itens semelhantes
+							- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+							- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+								- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+					- Oque é necessário para a petiko utilizar o dispositivo como alternativa?
+						- Quais equipamentos ela precisa?
+							- ao menos um dispositivo para cada montador para suprir a demanda
+						- Ela tem fácil acesso a esses equipamentos?
+							- sim a petiko possui pode arcar com esses custos
+	- Como e onde esses itens ficam dispostos para a montagem?
+		- Quais itens?
+			- os itens coletados pelo montador no estoque
+			- Como ele sabe quais itens coletar?
+				- atraves dos dados passados para ele, seja no papel ou no dispositivo
+					- papel impresso
+						- Quais dados vao estar nesse papel?
+							- id do kit
+							- nome do kit
+							- trilha do kit
+							- itens daquele kit
+							- grupo de kits que contenham itens semelhantes
+						- Como os dados vao chegar nesse papel?
+							- De onde esses dados vem?
+							- Quem é o responsável por passar os dados para esse papel?
+						- Como os dados vao estar separados nesse papel?
+							- agrupados por caixas individuais
+								- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+								- Quanto de espaço isso custaria da folha?
+									- uma folha sulfite a4 conseguiria exibir facilmente os dados de 4 caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+							- agrupados por grupos de caixas que contem itens semelhantes
+								- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+								- Quanto de espaço isso custaria da folha?
+									- uma folha de sulfite a4 conseguiria exibir cerca de 2 grupos de caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+						- Oque é necessário para a petiko utilizar o papel como alternativa?
+							- Quais equipamentos ela precisa?
+								- ao menos uma impressora para suprir a demanda de impressoes
+							- Ela tem fácil acesso a esses equipamentos?
+								- sim a petiko possui ao menos uma impressora, ou pode arcar com esses custos
+					- dispositivos eletronicos
+						- Quais dados vao estar nesse dispositivo?
+							- id do kit
+							- nome do kit
+							- trilha do kit
+							- itens daquele kit
+							- grupo de kits que contenham itens semelhantes
+						- Como os dados vao chegar nesse dispositivo?
+							- De onde esses dados vem?
+							- Quem é o responsável por passar os dados para esse dispositivo?
+						- Como os dados vao estar separados nesse dispositivo?
+							- agrupados por caixas individuais
+								- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+							- agrupados por grupos de caixas que contem itens semelhantes
+								- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+						- Oque é necessário para a petiko utilizar o dispositivo como alternativa?
+							- Quais equipamentos ela precisa?
+								- ao menos um dispositivo para cada montador para suprir a demanda
+							- Ela tem fácil acesso a esses equipamentos?
+								- sim a petiko possui pode arcar com esses custos
+			- Como ele coletou esses itens no estoque?
+				- Quais meios o montador tem de acessar esses itens
+					- empilhadeira
+						- carrega cerca de 5 caixas por vez
+						- apenas 1 para toda a empresa
+						- ela esta ocupada?
+						- é necessário usar a empilhadeira?
+					- caixa
+						- a petiko possui varias caixas a disposicao
+						- montador consegue carregar uma na mão?
+						- a quantidade de itens cabe nessa caixa?
+					- mão
+						- a quantidade de itens desejados cabe na mão do montador?
+				- Como esses itens são separados no local de armazenamento?
+					- categorias de itens
+						- ex: petiscos, brinquedos
+					- tipos de pet
+						- ex: gato, cachorro
+					- tamanho do pet
+						- ex: pequeno, médio ou grande
+				- Como o montador coleta os itens necessários?
+					- coleta itens em maior quantidade primeiro
+					- coleta itens próximos aos outros
+					- como ele sabe quais itens coletar?
+						- atraves dos dados passados para ele, seja no papel ou no dispositivo
+							- papel impresso
+						- Quais dados vao estar nesse papel?
+							- id do kit
+							- nome do kit
+							- trilha do kit
+							- itens daquele kit
+							- grupo de kits que contenham itens semelhantes
+						- Como os dados vao chegar nesse papel?
+							- De onde esses dados vem?
+							- Quem é o responsável por passar os dados para esse papel?
+						- Como os dados vao estar separados nesse papel?
+							- agrupados por caixas individuais
+								- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+								- Quanto de espaço isso custaria da folha?
+									- uma folha sulfite a4 conseguiria exibir facilmente os dados de 4 caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+							- agrupados por grupos de caixas que contem itens semelhantes
+								- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+								- Quanto de espaço isso custaria da folha?
+									- uma folha de sulfite a4 conseguiria exibir cerca de 2 grupos de caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+						- Oque é necessário para a petiko utilizar o papel como alternativa?
+							- Quais equipamentos ela precisa?
+								- ao menos uma impressora para suprir a demanda de impressoes
+							- Ela tem fácil acesso a esses equipamentos?
+								- sim a petiko possui ao menos uma impressora, ou pode arcar com esses custos
+							- dispositivos eletronicos
+					- Quais dados vao estar nesse dispositivo?
+						- id do kit
+						- nome do kit
+						- trilha do kit
+						- itens daquele kit
+						- grupo de kits que contenham itens semelhantes
+					- Como os dados vao chegar nesse dispositivo?
+						- De onde esses dados vem?
+						- Quem é o responsável por passar os dados para esse dispositivo?
+					- Como os dados vao estar separados nesse dispositivo?
+						- agrupados por caixas individuais
+							- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+							- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+								- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+						- agrupados por grupos de caixas que contem itens semelhantes
+							- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+							- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+								- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+					- Oque é necessário para a petiko utilizar o dispositivo como alternativa?
+						- Quais equipamentos ela precisa?
+							- ao menos um dispositivo para cada montador para suprir a demanda
+						- Ela tem fácil acesso a esses equipamentos?
+							- sim a petiko possui pode arcar com esses custos
+		- Onde esses itens são postos depois de serem coletados do estoque?
+			- proximos a bancada
+				- Tem espaço?
+					- para a quantidade adequada de itens sim
+				- Atrapalharia o montador?
+					- não até facilitaria o acesso aos itens
+			- jogados na rua
+				- Tem espaço?
+					- sim, tem muito
+				- Atrapalharia o montador?
+					- sim, ele provavelmente seria atropelado
+			- no estoque
+				- Tem espaço?
+					- sim, tem muito
+				- Atrapalharia o montador?
+					- sim, ele precisaria fazer longas viagens
+		- Como fica a disposição desses itens?
+			- Como eles sao separados ali?
+				- são separados por tipo de item
+				- são separados por tipo de animal
+			- Como eles ficam ali?
+				- ficam em caixas
+				- ficam no chão
+				- ficam em pallets
+
+4. Fluxo 04 - Como funciona o fluxo de notas fiscais e etiquetas da petiko?
+	- Como funcionam as notas fiscais e etiquetas?
+		- quais tipos existem?
+				- etiquetas de endereço
+				- etiquetas de nota fiscal
+		- para que servem?
+			- etiquetas de endereço servem para identificar o endereço corresponde da caixa, para onde ele deve ser entregada
+			- etiquetas de nota fiscal servem para identificar os dados fiscais de cada caixa, como dono e pedido
+	- Como são as etiquetas e notas fiscais?
+		- quais formatos podem ser utilizados?
+			- papel normal
+				- O que é preciso ter?
+					- no mínimo uma impressora normal para suprir a demanda
+				- Como elas funcionam?
+					- Qual a disposicao das notas e etiquetas nas folhas?
+						- uma folha contem uma nota e uma etiqueta
+						- cada nota nota e etiqueta ocupa uma folha
+						- cabem várias notas e etiquetas por folha
+					- Como elas são anexadas as caixas
+						- com fita
+						- com cola
+						- como adesivo
+			- adesivo
+				- O que é preciso ter?
+					- é necessário ter ao menos um impressora de adesivos para suprir a demanda
+				- Como elas funcionam?
+					- Qual a disposição das notas e etiquetas nesses adesivos?
+						- um adesivo para cada nota e etiqueta
+						- um adesivo para os dois
+						- várias notas e etiquetas para cada adesivo
+					- Como elas são anexadas as caixas?
+						- com fita
+						- com cola
+						- como adesivo
+		- quais informações cada etiqueta possui?
+			- etiqueta de endereço
+				- rua
+				- bairro
+				- numero
+				- cidade
+				- cep
+				- estado
+			- etiqueta de nota fiscal
+				- cpf do cliente
+				- numero da nota fiscal do pedido
+	- Como as etiquetas e notas fiscais são geradas e disponibilizadas para os montadores?
+		- Como e quem gera esses etiquetas e notas fiscais?
+			- Quem gera essas etiquetas e notas fiscais?
+				- supervisor
+				- montador
+				- funcionário aleatório
+			- Como gera essas etiquetas e notas fiscais?
+				- Qual formato elas podem ser geradas?
+					- papel normal
+					- adesivo
+				- O que é necessário ter para gera-las?
+					- impressora normal
+					- impressora de adesivos
+				- Qual a melhor maneira para gera-las?
+					- imprimir todas de uma vez
+					- ir imprimindo aos poucos
+					- imprimir uma por vez
+				- Qual a disposicao das notas e etiquetas nas folhas?
+					- uma folha contem uma nota e uma etiqueta
+					- cada nota nota e etiqueta ocupa uma folha
+					- cabem várias notas e etiquetas por folha
+		- Como funciona a distribuição delas para os montadores?
+			- Quem distribui elas para os montadores?
+				- supervisor
+				- montador
+				- funcionário aleatório
+			- Como distribui elas para os montadores?
+				- deixa na bancada de cada montador
+				- manda o montador ir buscar
+
+5. Fluxo 05 - Como funciona o fluxo de montagem de caixas?
+	- Oque é montar uma caixa?
+		- receber informações da caixa
+			- Como o montador tem acesso as informações de cada caixa?
+				- atraves dos dados passados para ele, seja no papel ou no dispositivo
+					- papel impresso
+						- Quais dados vao estar nesse papel?
+							- id do kit
+							- nome do kit
+							- trilha do kit
+							- itens daquele kit
+							- grupo de kits que contenham itens semelhantes
+						- Como os dados vao chegar nesse papel?
+							- De onde esses dados vem?
+								- sistema automatizado
+								- supervisor
+							- Quem é o responsável por passar os dados para esse papel?
+								- supervisor
+								- montador
+								- funcionario aleatório
+						- Como os dados vao estar separados nesse papel?
+							- agrupados por caixas individuais
+								- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+								- Quanto de espaço isso custaria da folha?
+									- uma folha sulfite a4 conseguiria exibir facilmente os dados de 4 caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+							- agrupados por grupos de caixas que contem itens semelhantes
+								- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+								- Quanto de espaço isso custaria da folha?
+									- uma folha de sulfite a4 conseguiria exibir cerca de 2 grupos de caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+						- Oque é necessário para a petiko utilizar o papel como alternativa?
+							- Quais equipamentos ela precisa?
+								- ao menos uma impressora para suprir a demanda de impressoes
+							- Ela tem fácil acesso a esses equipamentos?
+								- sim a petiko possui ao menos uma impressora, ou pode arcar com esses custos
+					- dispositivos eletronicos
+						- Quais dados vao estar nesse dispositivo?
+							- id do kit
+							- nome do kit
+							- trilha do kit
+							- itens daquele kit
+							- grupo de kits que contenham itens semelhantes
+						- Como os dados vao chegar nesse dispositivo?
+							- De onde esses dados vem?
+								- sistema automatizado
+								- supervisor
+							- Quem é o responsável por passar os dados para esse papel?
+								- supervisor
+								- montador
+								- funcionario aleatório
+						- Como os dados vao estar separados nesse dispositivo?
+							- agrupados por caixas individuais
+								- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+							- agrupados por grupos de caixas que contem itens semelhantes
+								- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+						- Oque é necessário para a petiko utilizar o dispositivo como alternativa?
+							- Quais equipamentos ela precisa?
+								- ao menos um dispositivo para cada montador para suprir a demanda
+							- Ela tem fácil acesso a esses equipamentos?
+								- sim a petiko possui pode arcar com esses custos
+			- Quais informações ele tem acesso?
+				- id do kit
+				- nome do kit
+				- trilha do kit
+				- itens daquele kit/ grupo de kits
+				- nota fiscal referente ao kit
+			- Em qual formato essas informações chegam para ele?
+				- Agrupadas por caixas individuais
+					- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+				- Agrupadas por grupos de caixas que contem itens semelhantes
+					- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+		- buscar esses itens no estoque
+			- Onde esta esse estoque?
+				- A petiko tem um estoque?
+					- sim a petiko possui um estoque para armazenar os itens
+				- Onde fica esse local onde os itens são armazenados?
+					- o estoque fica em um galpão ao lado do galpão onde a montagem das caixas é realizado, bastando apenas atravessar a rua para chegar ao estoque de itens
+			- Quais meios o montador tem de acessar esses itens
+				- empilhadeira
+				    - Qual a capacidade?
+				   		- cerca de 5 caixas
+				    - Esta disponivel?
+				    	- temos 1 empilhadeira para toda a petiko
+				    - É necessário utiliza-la?
+				    	- somente se o volume de itens for grande
+				- caixa
+				    - Qual a capacidade?
+				   		- cada caixa carrega vários itens dependendo de seus tamanhos
+				   		- cerca de 50 itens pequenos
+				   			- petiscos
+				   			- brinquedos pequenos
+				   		- cerca de 4 a 5 itens grande
+				   			- rações
+				   			- brinquedos grandes
+				   			- sacos de areia para gatos
+				    - Esta disponivel?
+				    	- a petiko possui diversas caixas a disposicao
+				    - É necessário utiliza-la?
+				    	- se o volume de itens for grande o suficiente sim
+				- mão
+				    - Qual a capacidade?
+				   		- 1 item por mao
+				    - Esta disponivel?
+				    	- sempre esta disponivel
+				    - É necessário utiliza-la?
+				    	- somente se for necessário apenas um item
+			- Como o montador coleta esses itens no estoque?
+				- atraves dos dados passados para ele, seja no papel ou no dispositivo
+					- papel impresso
+						- Quais dados vao estar nesse papel?
+							- id do kit
+							- nome do kit
+							- trilha do kit
+							- itens daquele kit
+							- grupo de kits que contenham itens semelhantes
+						- Como os dados vao chegar nesse papel?
+							- De onde esses dados vem?
+								- sistema automatizado
+								- supervisor
+							- Quem é o responsável por passar os dados para esse papel?
+								- supervisor
+								- montador
+								- funcionario aleatório
+						- Como os dados vao estar separados nesse papel?
+							- agrupados por caixas individuais
+								- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+								- Quanto de espaço isso custaria da folha?
+									- uma folha sulfite a4 conseguiria exibir facilmente os dados de 4 caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+							- agrupados por grupos de caixas que contem itens semelhantes
+								- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+								- Quanto de espaço isso custaria da folha?
+									- uma folha de sulfite a4 conseguiria exibir cerca de 2 grupos de caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+						- Oque é necessário para a petiko utilizar o papel como alternativa?
+							- Quais equipamentos ela precisa?
+								- ao menos uma impressora para suprir a demanda de impressoes
+							- Ela tem fácil acesso a esses equipamentos?
+								- sim a petiko possui ao menos uma impressora, ou pode arcar com esses custos
+					- dispositivos eletronicos
+						- Quais dados vao estar nesse dispositivo?
+							- id do kit
+							- nome do kit
+							- trilha do kit
+							- itens daquele kit
+							- grupo de kits que contenham itens semelhantes
+						- Como os dados vao chegar nesse dispositivo?
+							- De onde esses dados vem?
+							- Quem é o responsável por passar os dados para esse dispositivo?
+						- Como os dados vao estar separados nesse dispositivo?
+							- agrupados por caixas individuais
+								- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+							- agrupados por grupos de caixas que contem itens semelhantes
+								- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+						- Oque é necessário para a petiko utilizar o dispositivo como alternativa?
+							- Quais equipamentos ela precisa?
+								- ao menos um dispositivo para cada montador para suprir a demanda
+							- Ela tem fácil acesso a esses equipamentos?
+								- sim a petiko possui pode arcar com esses custos
+		- colocar itens dentro da caixa
+			- Como o montador sabe oque colocar em cada caixa?
+				- atraves dos dados passados para ele, seja no papel ou no dispositivo
+					- papel impresso
+						- Quais dados vao estar nesse papel?
+							- id do kit
+							- nome do kit
+							- trilha do kit
+							- itens daquele kit
+							- grupo de kits que contenham itens semelhantes
+						- Como os dados vao chegar nesse papel?
+							- De onde esses dados vem?
+								- sistema automatizado
+								- supervisor
+							- Quem é o responsável por passar os dados para esse papel?
+								- supervisor
+								- montador
+								- funcionario aleatório
+						- Como os dados vao estar separados nesse papel?
+							- agrupados por caixas individuais
+								- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+								- Quanto de espaço isso custaria da folha?
+									- uma folha sulfite a4 conseguiria exibir facilmente os dados de 4 caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+							- agrupados por grupos de caixas que contem itens semelhantes
+								- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+								- Quanto de espaço isso custaria da folha?
+									- uma folha de sulfite a4 conseguiria exibir cerca de 2 grupos de caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+						- Oque é necessário para a petiko utilizar o papel como alternativa?
+							- Quais equipamentos ela precisa?
+								- ao menos uma impressora para suprir a demanda de impressoes
+							- Ela tem fácil acesso a esses equipamentos?
+								- sim a petiko possui ao menos uma impressora, ou pode arcar com esses custos
+					- dispositivos eletronicos
+						- Quais dados vao estar nesse dispositivo?
+							- id do kit
+							- nome do kit
+							- trilha do kit
+							- itens daquele kit
+							- grupo de kits que contenham itens semelhantes
+						- Como os dados vao chegar nesse dispositivo?
+							- De onde esses dados vem?
+							- Quem é o responsável por passar os dados para esse dispositivo?
+						- Como os dados vao estar separados nesse dispositivo?
+							- agrupados por caixas individuais
+								- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+							- agrupados por grupos de caixas que contem itens semelhantes
+								- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+						- Oque é necessário para a petiko utilizar o dispositivo como alternativa?
+							- Quais equipamentos ela precisa?
+								- ao menos um dispositivo para cada montador para suprir a demanda
+							- Ela tem fácil acesso a esses equipamentos?
+								- sim a petiko possui pode arcar com esses custos
+			- Como ele organiza os itens dentro da caixa?
+				- items mais pesados ao fundo
+				- items mais leves e frágeis ao topo da caixa
+		- lacrar caixa
+			- Qual material ele utiliza?
+				- fita
+				- cola
+			- Como ele verifica que a caixa foi lacrada corretamente?
+				- olhando
+				- balançando a caixa
+				- olhando a caixa com atenção
+		- anexar etiqueta de endereço e nota fiscal
+			- Em qual formato elas podem chegar para o montador?
+				- papel normal
+					- O que é preciso ter?
+						- apenas uma impressora normal
+					- Como elas funcionam?
+						- Qual a disposicao das notas e etiquetas nas folhas?
+							- uma folha contem uma nota e uma etiqueta
+							- cada nota nota e etiqueta ocupa uma folha
+							- cabem várias notas e etiquetas por folha
+						- Como elas são anexadas as caixas
+							- utilizando fita
+							- com cola
+						- Quem as imprime e disponibiliza para o montador?
+							- supervisor
+							- funcionario aleatorio
+							- montador
+				- adesivo
+					- O que é preciso ter?
+						- é necessário ter ao menos um impressora de adesivos
+					- Como elas funcionam?
+						- Qual a disposição das notas e etiquetas nesses adesivos?
+							- um adesivo para cada nota e etiqueta
+							- um adesivo para os dois
+							- várias notas e etiquetas para cada adesivo
+						- Como elas são anexadas as caixas?
+							- com fita
+							- com cola
+							- como adesivo
+						- Quem as imprime e disponibiliza para o montador?
+							- supervisor
+							- funcionario aleatorio
+							- montador
+			- Como elas são anexadas?
+				- com fita
+				- com cola
+				- como adesivo
+		- armazenar a caixa
+			- Onde armazenar a caixa depois de pronta?
+				- estoque de itens
+				- rua
+				- lugar no galpão de montagem especializado para isso
+			- Como funciona o armazenamento dessas caixas?
+				- são empilhadas
+				- são postas lado a lado
+			- Quem armazena elas?
+				- supervisor
+				- montador
+				- funcionário aleatório
+	- Oque acontece com a caixa após a montagem
+		- é necessário fazer uma verificação
+			- Como essa verificação é feita?
+				- olha a caixa por cima
+				- pega a caixa na mão e verifica se ela contem as etiquetas e esta lacrada corretamente
+			- Quem faz essa verificação?
+				- supervisor
+				- montador
+				- funcionário aleatório
+		- a caixa é armazenada
+			- Onde armazenar a caixa depois de pronta?
+				- estoque de itens
+				- rua
+				- lugar no galpão de montagem especializado para isso
+			- Como funciona o armazenamento dessas caixas?
+				- são empilhadas
+				- são postas lado a lado
+			- Quem armazena elas?
+				- supervisor
+				- montador
+				- funcionário aleatório
+	- Como o montador verifica quais caixas ja foram ou ainda precisam ser montadas?
+		- Como ele consulta as caixas que ele precisa fazer?
+			- atraves dos dados passados para ele, seja no papel ou no dispositivo
+				- papel impresso
+						- Quais dados vao estar nesse papel?
+							- id do kit
+							- nome do kit
+							- trilha do kit
+							- itens daquele kit
+							- grupo de kits que contenham itens semelhantes
+						- Como os dados vao chegar nesse papel?
+							- De onde esses dados vem?
+							- Quem é o responsável por passar os dados para esse papel?
+						- Como os dados vao estar separados nesse papel?
+							- agrupados por caixas individuais
+								- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+								- Quanto de espaço isso custaria da folha?
+									- uma folha sulfite a4 conseguiria exibir facilmente os dados de 4 caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+							- agrupados por grupos de caixas que contem itens semelhantes
+								- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+								- Quanto de espaço isso custaria da folha?
+									- uma folha de sulfite a4 conseguiria exibir cerca de 2 grupos de caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+						- Oque é necessário para a petiko utilizar o papel como alternativa?
+							- Quais equipamentos ela precisa?
+								- ao menos uma impressora para suprir a demanda de impressoes
+							- Ela tem fácil acesso a esses equipamentos?
+								- sim a petiko possui ao menos uma impressora, ou pode arcar com esses custos
+				- dispositivos eletronicos
+						- Quais dados vao estar nesse dispositivo?
+							- id do kit
+							- nome do kit
+							- trilha do kit
+							- itens daquele kit
+							- grupo de kits que contenham itens semelhantes
+						- Como os dados vao chegar nesse dispositivo?
+							- De onde esses dados vem?
+							- Quem é o responsável por passar os dados para esse dispositivo?
+						- Como os dados vao estar separados nesse dispositivo?
+							- agrupados por caixas individuais
+								- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+							- agrupados por grupos de caixas que contem itens semelhantes
+								- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+						- Oque é necessário para a petiko utilizar o dispositivo como alternativa?
+							- Quais equipamentos ela precisa?
+								- ao menos um dispositivo para cada montador para suprir a demanda
+							- Ela tem fácil acesso a esses equipamentos?
+								- sim a petiko possui pode arcar com esses custos
+		- Como ele consulta as caixas que ele ja fez?
+			- atraves dos dados passados para ele, seja no papel ou no dispositivo
+				- papel impresso
+						- Quais dados vao estar nesse papel?
+							- id do kit
+							- nome do kit
+							- trilha do kit
+							- itens daquele kit
+							- grupo de kits que contenham itens semelhantes
+						- Como os dados vao chegar nesse papel?
+							- De onde esses dados vem?
+							- Quem é o responsável por passar os dados para esse papel?
+						- Como os dados vao estar separados nesse papel?
+							- agrupados por caixas individuais
+								- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+								- Quanto de espaço isso custaria da folha?
+									- uma folha sulfite a4 conseguiria exibir facilmente os dados de 4 caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+							- agrupados por grupos de caixas que contem itens semelhantes
+								- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+								- Quanto de espaço isso custaria da folha?
+									- uma folha de sulfite a4 conseguiria exibir cerca de 2 grupos de caixas (somente frente da folha), de modo que o montador consiga vizualizar os dados facilmente
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+						- Oque é necessário para a petiko utilizar o papel como alternativa?
+							- Quais equipamentos ela precisa?
+								- ao menos uma impressora para suprir a demanda de impressoes
+							- Ela tem fácil acesso a esses equipamentos?
+								- sim a petiko possui ao menos uma impressora, ou pode arcar com esses custos
+				- dispositivos eletronicos
+						- Quais dados vao estar nesse dispositivo?
+							- id do kit
+							- nome do kit
+							- trilha do kit
+							- itens daquele kit
+							- grupo de kits que contenham itens semelhantes
+						- Como os dados vao chegar nesse dispositivo?
+							- De onde esses dados vem?
+							- Quem é o responsável por passar os dados para esse dispositivo?
+						- Como os dados vao estar separados nesse dispositivo?
+							- agrupados por caixas individuais
+								- separar cada caixa individualmente com os deus dados, como id, nome, trilha, e seus respectivos itens e exibir cada caixa individualmente
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- nao, pois ele precisaria coletar os itens das caixas sem seguir nenhum padrao entre eles, tornando muito mais dificil tanto a coleta desses itens como a montagem das caixas
+							- agrupados por grupos de caixas que contem itens semelhantes
+								- separar grupos de caixas que contem itens iguais ou semelhantes e exibir os dados de cada caixa daquele grupo de forma resumida e os itens delas de forma geral
+								- O montador conseguiria montar facilmente as caixas se os dados chegassem assim?
+									- sim, pois assim ele não precisa ficar verificando os itens de cada caixa individualmente, facilitando na hora de coletar os itens e de montar as caixas
+						- Oque é necessário para a petiko utilizar o dispositivo como alternativa?
+							- Quais equipamentos ela precisa?
+								- ao menos um dispositivo para cada montador para suprir a demanda
+							- Ela tem fácil acesso a esses equipamentos?
+								- sim a petiko possui pode arcar com esses custos 
+
+APPIMAGE_EXTRACT_AND_RUN=1 /home/davilaw/Documents/Obsidian-1.12.7.AppImage --no-sandbox --disable-gpu --ozone-platform=x11
